@@ -1,0 +1,18 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+}
+
+body h2
+{
+    margin-top: 15px;
+}
+
+thead
+{
+    background-color: bisque;
+}

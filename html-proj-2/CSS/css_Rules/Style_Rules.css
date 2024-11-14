@@ -1,0 +1,35 @@
+.container
+{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+}
+
+.ord_list
+{
+    background-color: bisque;
+    list-style-type: upper-roman;
+}
+
+.sub_ord_list
+{
+    background-color: blanchedalmond;
+    list-style-type: lower-alpha;
+}
+
+#olist_1
+{
+    background-color: white;
+    list-style-type: none;
+}
+
+#olist_1 li::before
+{
+    content: "\2615"; /* Unicode character for coffee cup */
+    display: inline-block;
+    width: 1em; /* Adjust the width as needed */
+    margin-right: 0.5em; /* Adjust the spacing as needed */
+    font-size: 1.5em;
+}
+

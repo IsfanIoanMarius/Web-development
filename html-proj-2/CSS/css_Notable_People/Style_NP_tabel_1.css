@@ -1,0 +1,55 @@
+.Tab1
+{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 750px;
+    height: 590px;
+    border: 3px solid black;
+}
+
+.Tab1 thead tr td:nth-child(1),
+.Tab1 thead tr td:nth-child(2)
+{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.Tab1 thead tr td:nth-last-child(1),
+.Tab1 thead tr td:nth-last-child(2)
+{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.Tab1 tbody tr td img
+{
+    display: flex;
+    width: 80px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.Tab1 tbody tr td
+{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Tab1 tbody tr td ul
+{
+    list-style-type: none;
+}
+
+.Tab1 tbody tr td a
+{
+    color: black;
+}

@@ -1,0 +1,57 @@
+.landing 
+{
+    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fill minmax(50px, 1fr));
+}
+
+.titlu1
+{
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+    
+}
+
+.Descriere_Cafea
+{
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.ImgCafea1
+{
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+    grid-column-start: -7;
+    grid-column-end: -1;
+
+    
+}
+
+.titlu2
+{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.tabel_tip_cafea
+{
+    grid-row: 8/12;
+    grid-column: 1/15;   
+}
+
+.tipuri_de_boabe
+{
+    grid-row: 15/17;
+    grid-column: 1/8;
+}
